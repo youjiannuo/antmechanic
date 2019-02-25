@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import lombok.Data;
+
 
 import static com.yn.framework.cache.RedisClient.getItem;
 import static com.yn.framework.cache.RedisClient.putItem;
@@ -23,7 +23,7 @@ import static com.yn.framework.system.StringUtil.isEmpty;
 import static com.yn.framework.system.StringUtil.md5;
 import static com.yn.framework.system.StringUtil.parseInt;
 
-@Data
+
 public class JSON {
 
     private String html = "";
@@ -80,6 +80,10 @@ public class JSON {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+    }
+
+    public int getByteSize(){
+        return byteSize;
     }
 
     public void toKeyAndValue(List<String> keys, List<String> values) {
