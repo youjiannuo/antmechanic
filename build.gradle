@@ -37,7 +37,4 @@ dependencies {
     compile 'com.umeng.sdk:common:latest.integration'
     compile 'com.google.zxing:core:3.3.0'
     compile 'com.edmodo:cropper:1.0.1'
-    compileOnly'org.projectlombok:lombok:1.18.6'
-    annotationProcessor'org.projectlombok:lombok:1.18.6'
 }
-//签名文件密码 ant123456
