@@ -3,7 +3,6 @@ package com.yn.framework.model;
 import com.yn.framework.cache.RedisItem;
 import com.yn.framework.data.JSON;
 
-import lombok.Data;
 
 /**
  * Created by youjiannuo on 2019/2/22.
