@@ -28,7 +28,7 @@ public class JSONItem implements RedisItem {
                 json.getByteSize();
     }
 
-    publis JSON getJson(){
+    public JSON getJson(){
         return json;
     }
 
