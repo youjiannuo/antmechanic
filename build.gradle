@@ -43,10 +43,3 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.2'
     testCompileOnly 'org.projectlombok:lombok:1.18.2'
 }
-buildscript {
-    repositories {
-        mavenCentral()
-        jcenter()
-        google()
-    }
-}

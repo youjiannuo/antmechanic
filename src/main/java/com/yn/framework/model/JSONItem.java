@@ -9,7 +9,7 @@ import lombok.Data;
  * Created by youjiannuo on 2019/2/22.
  * Email by 382034324@qq.com
  */
-@Data
+
 public class JSONItem implements RedisItem {
 
     private JSON json;
@@ -27,4 +27,9 @@ public class JSONItem implements RedisItem {
                 json.toString().getBytes().length :
                 json.getByteSize();
     }
+
+    publis JSON getJson(){
+        return json;
+    }
+
 }
