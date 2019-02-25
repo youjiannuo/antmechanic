@@ -38,8 +38,4 @@ dependencies {
     compile 'com.umeng.sdk:common:latest.integration'
     compile 'com.google.zxing:core:3.3.0'
     compile 'com.edmodo:cropper:1.0.1'
-    annotationProcessor 'org.projectlombok:lombok:1.18.2'
-    compileOnly 'org.projectlombok:lombok:1.18.2'
-    testAnnotationProcessor 'org.projectlombok:lombok:1.18.2'
-    testCompileOnly 'org.projectlombok:lombok:1.18.2'
 }
